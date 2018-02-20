@@ -1,0 +1,12 @@
+Algoritmo "InformaNumeroPositivoNegativo"
+var
+  numero: inteiro
+inicio
+  Leia (numero)
+  se numero = 0 então
+     escreva ("É zero")
+  senão
+     escreva ("É positivo")
+  fimse
+ fimse
+fimalgoritmo
