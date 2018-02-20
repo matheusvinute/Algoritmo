@@ -1,0 +1,5 @@
+se <condição> então
+   <bloco de comandos verdade>
+senão
+   <bloco de comando falsidade>
+fimse
