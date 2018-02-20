@@ -1,0 +1,15 @@
+Algoritmo "MaiorIdade"
+
+Var
+     idade: inteiro
+inicio
+  //------------ENTRADA-----------
+  escreva ("digite a sua idade")
+  leia(idade)
+  
+  //-----------Saida--------------
+  se idade >= 18 então
+      escreva ("Você é maior de idade")
+  fimse
+  
+fimalgoritmo
