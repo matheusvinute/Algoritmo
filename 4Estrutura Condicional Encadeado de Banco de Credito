@@ -1,0 +1,32 @@
+Algoritmo "CreditoEspecial"
+var
+  Salmedio, Vlrcred: real
+  Nome             : caracter
+inicio
+      escreva('Entre com o nome do cliente: ')
+      leia(Nome)
+      
+      escreva('Entre com o saldo medio: ')
+      leia(Salmedio)
+      
+      se Salmedio <=200 então
+            Vlrcred <- (0,00)
+            
+      senão
+            se Salmedio <=400 então
+                  Vlrcred <- (Salmedio * 20) / 100;
+            senão
+                  se Salmedio <= 600 então
+                        Vlrcred <- (Salmedio * 30) / 100;
+                  senão
+                       se Salmedio > 600 então
+                              Vlrcred <- (Salmedio * 40) / 100
+                       fimse
+                  fimse
+            fimse
+      fimse
+      
+   escreva('Nome Cliente: ' Cliente)
+   escreva('Slado medio: 'Salmedio)
+   escreva('Valor de Credito: 'Vlrcred)
+fimalgoritmo
