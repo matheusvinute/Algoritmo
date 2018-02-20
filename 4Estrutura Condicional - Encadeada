@@ -1,0 +1,20 @@
+se (<condição_1>) então
+    se (<condição_2>) então
+       primeiro bloco de instrução
+    senão
+       segundo bloco de instrução
+    fimse
+senão
+    se (<condição_3>) então
+        se (<condição_4>) então
+           terceiro bloco de instrução
+        fimse
+        instrução n
+    senão
+      se (<condição_5>) então
+         quarto bloco de instrução
+      senão
+         quinto bloco de instrução
+      fimse
+    fimse
+fimse
